@@ -1,0 +1,6 @@
+ div,
+        p,
+        span {
+            color: blue;
+            background-color: pink;
+        }
