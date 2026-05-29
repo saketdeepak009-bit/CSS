@@ -1,0 +1,65 @@
+/* 1.  Element Selector */
+
+        div{
+            background-color: greenyellow; 
+        }
+
+
+        /* 2.  Class selector */
+
+        .red{
+            background-color: red;
+        }
+
+        /* 3. Id selector */
+
+        #yellow{
+            background-color: yellow;
+        }
+
+        /* 4. Child Selector 
+         pahle wale div me hi hai      yadi div ke article ke ander paragraph hoga to work nahi karega
+                                         iske liye Descendant selector ka use karenge */
+
+        div > p {
+            color: brown;
+            background-color: aqua;
+        }
+
+
+        /* 5. Descendant selector 
+               pahle wale div ke article ke ander hai p*/
+
+         div p {
+            color: blue;
+            background-color: fuchsia;
+         }
+
+
+         /* 6. Univesal Selector */
+         * {
+            margin: 0;
+            padding: 0;
+         }
+
+
+         /*  7. Pseudo Selector  */
+            a:link {
+                color: brown;
+            }
+
+            a:visited {
+                color: green;
+            }
+
+            a:active{
+                background-color: chartreuse;
+            }
+             a:hover{
+                background-color: green;
+             }
+
+
+             p:first-child{
+                background-color: aqua;
+             }

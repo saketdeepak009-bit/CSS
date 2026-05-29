@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+
+    <style>
+        
+        /* 1.  Element Selector */
+
+        div{
+            background-color: greenyellow; 
+        }
+
+
+        /* 2.  Class selector */
+
+        .red{
+            background-color: red;
+        }
+
+        /* 3. Id selector */
+
+        #yellow{
+            background-color: yellow;
+        }
+
+        /* 4. Child Selector 
+         pahle wale div me hi hai      yadi div ke article ke ander paragraph hoga to work nahi karega
+                                         iske liye Descendant selector ka use karenge */
+
+        div > p {
+            color: brown;
+            background-color: aqua;
+        }
+
+
+        /* 5. Descendant selector 
+               pahle wale div ke article ke ander hai p*/
+
+         div p {
+            color: blue;
+            background-color: fuchsia;
+         }
+
+
+         /* 6. Univesal Selector */
+         * {
+            margin: 0;
+            padding: 0;
+         }
+
+
+         /*  7. Pseudo Selector  */
+            a:link {
+                color: brown;
+            }
+
+            a:visited {
+                color: green;
+            }
+
+            a:active{
+                background-color: chartreuse;
+            }
+             a:hover{
+                background-color: green;
+             }
+
+
+             p:first-child{
+                background-color: aqua;
+             }
+            
+         
+
+
+    </style>
+
+</head>
+<body>
+
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+        </main>
+
+    <div>
+        i am dipak developer
+
+        <article>
+        <p>I am a para inside div</p>
+        </article>
+
+    
+    </div>
+
+
+    <div class="red">
+       my friend name is prince   
+    </div>
+
+
+    <div Id="yellow">
+     My Another friends 
+    </div>
+
+
+    <a href="https://www.google.com">Go to google</a>
+    <a href="https://www.facebook2.com">Go to facebook2</a>
+
+
+</body>
+</html>
+    
