@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxmodel</title>
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background-color: aqua;
+}
+.box1 {
+    color: blue;
+    padding: 40px;
+    margin: 35px;
+    border: 5px solid red;
+    height: 200px;
+    box-sizing: border-box;
+
+}
+.box2 {
+    color: red;
+    padding: 40px;
+    margin: 35px;
+    height: 200px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}  
+
+
+
+/*           margin colabs
+      -------------------------
+ margin colabs ka concept ye kahta ki ager 2 elements ki margin
+ overlap ho rahi hai to jo bhi maximum margin hai vo bas 1 bar lagegi
+                                                                 */
+
+    </style>
+</head>
+<body>
+    <div class="box box1">I am a Box</div>
+    <div class="box box2">I am another box</div>
+</body>
+</html>

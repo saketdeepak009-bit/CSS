@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background-color: aqua;
+}
+.box1 {
+    color: blue;
+    padding: 40px;
+    margin: 35px;
+    border: 5px solid red;
+    height: 200px;
+    box-sizing: border-box;
+
+}
+.box2 {
+    color: red;
+    padding: 40px;
+    margin: 35px;
+    height: 200px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}  
+
+
+
+/*           margin colabs
+      -------------------------
+ margin colabs ka concept ye kahta ki ager 2 elements ki margin
+ overlap ho rahi hai to jo bhi maximum margin hai vo bas 1 bar lagegi */
