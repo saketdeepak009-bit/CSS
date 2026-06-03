@@ -1,0 +1,13 @@
+.box {
+    border: 3px solid black;
+    padding: 34px;
+    box-shadow: 5px 15px 5px #2ab33c;
+}
+
+.text-element {
+    text-shadow:
+        2px 2px 4px #de71bd;
+    outline: 3px solid #2e0fa7;
+    border: 2px solid red;
+    outline-offset: 5px;
+}
