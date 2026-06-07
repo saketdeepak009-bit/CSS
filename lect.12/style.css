@@ -1,0 +1,44 @@
+
+        :root{
+           /* --color: rgb(0, 255, 26);*/
+            --color: rgb(0, 255, 26);
+            --seccolor: rgb(141, 141, 221);
+            --defpad: 43px;
+           /* --defop: 0.2;*/
+
+        }
+
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav{
+            background-color: var(--color);
+        }
+        
+
+        ul{
+            display: flex;
+        }
+
+        ul li{
+
+           /* opacity: var(--defop);*/
+
+            list-style: none;
+            padding: 40px;
+            border: 5px solid var(--seccolor);
+            padding: var(--defpad);
+
+        }
+        ul li:first-child{
+           /* --color: rgb(206, 194, 29);*/
+           --color: rgb(206, 194, 29);
+            background-color:var(--color,blue);
+        }
+        .container{
+          
+            background-color: var(--seccolor);
+        }
